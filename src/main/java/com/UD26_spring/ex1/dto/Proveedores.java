@@ -27,7 +27,7 @@ public class Proveedores {
 	private String nombre;
 	
 	@OneToMany
-    @JoinColumn(name="id")
+    @JoinColumn(name="proveedores_id")
     private List<Suministra> registroCurso;
 
 	public Proveedores() {}

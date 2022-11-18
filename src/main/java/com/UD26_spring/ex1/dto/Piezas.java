@@ -25,7 +25,7 @@ public class Piezas {
 	private String nombre;
 	
 	@OneToMany
-    @JoinColumn(name="id")
+    @JoinColumn(name="piezas_id")
     private List<Suministra> registroCurso;
 
 	public Piezas() {}
